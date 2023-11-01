@@ -11,4 +11,13 @@ output:
 
 Hi there! My name is Christine and I'm a PhD student at the Columbia University Mailman School of Public Health. 
 
+# About Christine!
+
+[About me](about.html)
+
+# Christine's Face!
+
+This is me!
+
 ![](images/clk_green_bkrnd.jpeg)
+

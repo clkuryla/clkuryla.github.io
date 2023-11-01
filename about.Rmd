@@ -1,0 +1,14 @@
+---
+title: "Christine Lucille Kuryla"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# About me
+
+I'm a PhD student at the Columbia University Mailman School of Public Health. 
+
+I like yoga, parties, and puppies. That is my entire personality.
