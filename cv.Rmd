@@ -6,10 +6,6 @@ output:
     toc_float: true
 ---
 
-Christine L. Kuryla
-clk2162@cumc.columbia.edu
-305-206-2987
-
 ### Education
 
 Current:	Columbia University, New York, NY			
