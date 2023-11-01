@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # Christine's Website! 
@@ -13,7 +12,7 @@ Hi there! My name is Christine and I'm a PhD student at the Columbia University 
 
 # About Christine!
 
-[About me](about.html)
+Learn more [about me](about.html).
 
 # Christine's Face!
 
