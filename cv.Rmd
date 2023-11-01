@@ -1,0 +1,180 @@
+---
+title: "Christine Lucille Kuryla's CV"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Christine L. Kuryla
+clk2162@cumc.columbia.edu
+305-206-2987
+
+### Education
+
+Current:	Columbia University, New York, NY			
+	PhD Candidate
+	
+2021	Columbia University, New York, NY			
+	Master of Public Health (MPH), GPA 3.9
+	
+2017	Johns Hopkins University, Baltimore, MD
+	Post-baccalaureate, GPA 4.0
+	
+2014	Florida International University Honors College, Miami, FL
+	BSc Physics, minor Mathematics, GPA 3.6
+
+### Employment and Experience
+
+#### *Columbia University Mailman School of Public Health	New York, NY*
+
+Department of Environmental Health Sciences	Aug 2021 – Aug 2023
+
+Staff Associate - Research
+	
+•	Currently working on three COVID-19 research projects:
+1.	Differential epigenetic, RNA expression, and immune responses associated with severity of SARS-CoV-2 infection and risk for long COVID. ELISA, RNA sequencing and transcriptomic analysis for protein-coding and non-coding RNA, methylated DNA immunoprecipitation for epigenomic analysis.
+2.	Cellular and molecular mechanisms underlying far-UVC damage in cells. RNA Sequencing, transcriptomic analysis, viability assays.
+3.	Transcriptomic analysis on COVID-19 datasets to complement an epigenomic analysis.
+•	Study design, logistics, data storage, organization, and analysis of a vast biobank of samples and associated phenotypic, demographic, and omics data.
+•	Lead and perform end-to-end transcriptomics analysis while teaching Masters students R and omics.
+•	Teach and mentor MPH research students and summer high school students.
+•	TA for Laboratory Methods in Environmental Health Sciences. 
+Guide students as they learn essential laboratory techniques and gain research skills. Emphasis placed on scientific integrity, thorough research design, and thought processes behind each experiment.
+
+#### *Citizens’ Public Health Literacy	New York, NY*
+
+Curriculum Development and Implementation	July 2020 - Sept 2021
+	
+Leadership and Advisory Board	Jan 2021 - Dec 2021
+	
+•	Created a new, comprehensive yet simplified online public health curriculum for a broad, inclusive audience, incorporating feedback from Washington Heights, NY stakeholders. 
+•	Helped form the new organization to address gaps in public perception and understanding of public health: grant writing and funding searches, strategic planning, recruiting partners. 
+•	Created a systematic guide of evidence-based best practices for creating an online curriculum targeting low health literacy populations. Developed and implemented a pre/post-test to rigorously assess and improve its effectiveness.
+
+#### *The Johns Hopkins University School of Medicine	Baltimore, MD*
+
+Department of Pediatrics, Department of Pediatric Cardiology	July 2018 - Aug 2019
+
+Study Coordinator and Researcher
+	
+•	Conducted a pilot study on pathologic heart murmur screening in children using telemedicine and artificial intelligence algorithms to analyze heart sounds; delivered presentations at conferences.  
+•	Designed storage structure, created, managed, and analyzed study data in REDCap; created a classification system for echocardiogram results by working with a pediatric cardiologist. 
+•	Statistical analysis, study design, methods, outreach, and interpretation of data; prepared documents and consent for IRB approval.
+•	Facilitated interdisciplinary collaboration between JHU pediatricians, technicians, statisticians, and technology engineers from eMurmur and CSD Labs in Austria. Gathered auscultation data.
+Department of Pediatrics, Division of General Pediatrics	Jan 2019 - Aug 2019
+	 Research Analyst							
+•	Created visualizations of quantitative data using R, interpreted qualitative data for a study on pediatric residents’ perceptions of their patient panels; supervised language/presentation of results.
+
+#### *Kennedy Krieger Institute	Baltimore, MD*
+
+Research Assistant	July 2017 – July 2018
+	
+•	Created and refined several data processing pipelines using MATLAB, R, and bash (Unix shell/command language).
+•	Developed atlas alignment and data cleaning protocols, collected, managed, and analyzed diffusion-weighted MRI data.
+•	Administered anatomical and functional MRI scans, mock scans, transcranial magnetic stimulation, electrogoniometer finger sequencing, EEG sessions, Vicom and Kinect motion capture, and behavioral tasks; developed Vicom and Kinect protocols.
+•	Assisted with participant psychophysical testing; scored, coded, and verified data.
+•	Performed single subject and group analysis of neuroimaging, behavioral, and physiological data.
+•	Maintained research databases to keep track of data archiving and analysis, managed ongoing brain scan study data, archived unprocessed quantitative data, generated and compiled statistical data.
+•	Assisted a team studying mindful movement interventions for children with ADHD.
+
+Medical Tutorial	Aug 2016 – May 2017
+	
+•	Presented and participated in a scientific journal club, learned about neurology, neuroscience, EEG function and analysis.
+•	Conducted EEGs on participants; cleaned and analyzed EEG data for research projects.
+•	Summarized an automated EEG cleaning process using mathematical methods to remove artifacts more easily.
+
+#### *AmeriCorps at Salud Family Health Centers	Longmont, CO *
+
+Community HealthCorps Healthcare Coordinator	Aug 2015 – May 2016
+
+•	Provided communication and proactive services between Longmont United Hospital, the Salud Family Health Centers, patients’ primary care providers, and other resources.
+•	Followed up with patients’ care, conducted home visits, assessed overall progress, and resolved problems as required.
+•	Designed a mindfulness intervention used for home visits.
+•	Analyzed longitudinal data from previous program years to help assess effectiveness of different interventions on patients’ health outcomes to reduce hospital readmissions.
+
+#### *Lux Beauty Group	Los Angeles, CA*
+
+Operational Analyst	Nov 2014 - Feb 2015
+	
+•	Provided detailed financial projections/developed automated inventory tracking using NetSuite.
+
+#### *University of Notre Dame	South Bend, IN*
+
+Department of Applied and Computational Mathematics and Statistics	Jun - Aug 2013
+
+Research Experience for Undergraduates (REU)
+
+•	Created an additional algorithm to improve upon on a mathematical model and program in Java that simulated dynamic instability in microtubules.
+•	Consulted with mathematicians, biochemists, and physicists to study and elucidate mechanisms of microtubule dynamic instability. 
+
+
+#### *Florida International University 	Miami, FL*
+
+Department of Physics	Jan 2010 - May 2014
+
+Learning Assistant (LA) and Teaching Assistant (TA)
+	
+•	Introductory Physics and Modern Physics I/II
+
+
+#### *Universidade Federal Fluminense	Rio de Janeiro, Brazil*
+
+Department of Computer Science	Jun - Aug 2011
+
+Open Science Data Cloud - Partnerships for International Research and Education
+
+Visiting Researcher
+
+•	Contributed to a novel computational method to shorten the processing time for calculations of sound propagation through a three-dimensional space with minimal loss of quality.
+•	Improved simulations of fluid dynamics and ship motion for training the Brazilian navy by introducing computer scientists to physics of fluid dynamics and classical mechanics.
+
+### Outreach and Experience
+
+International Partnership of Education Research and Communication (IPERC)	New York, NY
+
+Teaching Assistant	Apr 2022 – Oct 2022
+	
+•	Instruction and mentoring to high school students seeking college level experiences in class and laboratories. Provided guidance in creation of published manuscript summarizing their research.	
+
+Math Meets Bio	New York, NY
+
+Co-PI and Finalist	Jan 2022 – May 2022
+	
+•	Bootcamp and competition to translate scientific discovery into a viable product. 
+
+Johns Hopkins Science Policy Group	Baltimore, MD
+
+•	Outreach, lectures, workshops, and community activities.	Sept 2018 – current
+
+MedHacks	Baltimore, MD
+
+•	Mentored (2019), participated (2018) in a health-themed hackathon.Sept 2018, 2019.
+
+Healthy Living Program (HeLP)	Thornton, CO
+
+•	Taught obese and overweight children and families healthy habits.	Oct 2015 – Jan 2016
+
+Rina Yoga									Miami, FL
+
+•	  200 Hour Yoga Teacher Training.				Aug 2013
+
+### Publications
+
+Kuryla CL, Ridha I, Don MTMR, Kleiman NJ, Chung Y, Park J, Murugan V, LaBaer J. Aberrant genome‐wide DNA methylation profiles in peripheral blood mononuclear cells (PBMCs) from hospitalized patients with COVID-19. In Preparation, submitting to BMC Genomics.
+
+Welch D., Kleiman NJ, Arden PC, Kuryla CL, Buonanno M, Ponnaiya B, Wu X, Brenner D. No evidence of induced skin cancer or other skin abnormalities after long-term (66 week) chronic exposure to 222-nm far-UVC radiation. Photochem Photobiol 2022. DOI: 10.1111/php.13656 
+
+Thompson R, Kuryla CL, Kim, J, Golden C, Crocetti M. Use of telemedicine with an artificial intelligence-enabled stethoscope to support decision-making and reduce inappropriate use of echocardiography in children with heart murmurs. Pediatrics 2021; 147. DOI: 10.1542/peds.147.3MA10.989a
+
+Kuryla CL. Mathematical modeling of dynamic instability in microtubules. Univ Notre Dame. NSF/REU Program, Student Papers 2013; 24:101-10. http://physics.nd.edu/assets/118103/kurylandreu2013.pdf
+
+Da Silva JR, Clua AWG, Montenegro A, Lage M, de Andrade Dreux M, Joselli M, Paglios PA, Kuryla CL. A heterogeneous system based on GPU and multi-core CPU for real-time fluid and rigid body simulation, Internat J Comput Fluid Dynamics 2012; 26:193-204. DOI: 10.1080/10618562.2012.683789
+
+Moreira B, Brandão DN, Gonzales EWC, Kischinhevsky M, Kuryla CL. An Architecture Using a Finite Difference Method to Calculate Realistic Sound Equalization in Games, 2011 Brazilian Symposium on Games and Digital Entertainment, 2011, pp. 70-78, DOI: 10.1109/SBGAMES.2011.36
+
+### Presentations
+
+“Population health management and practice feedback using electronic health record data in resident continuity clinic curriculum” - American Academy of Pediatrics, 2020 National Conference and Exhibition, Oct 2020
+
+“Feasibility of using an artificial intelligence-enabled stethoscope and telemedicine to improve referrals and reduce inappropriate use of echocardiography in children with heart murmurs”- High Value Practice Academic Alliance, 2018-2019 Abstracts, podium presentation, Nov 2019

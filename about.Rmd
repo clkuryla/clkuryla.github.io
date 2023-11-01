@@ -16,4 +16,4 @@ I like yoga, parties, and puppies. That is my entire personality.
 
 This is me!
 
-![](images/clk_green_bkrnd.jpeg)
+<img src = "images/clk_green_bkrnd.jpeg" style="width:50%">

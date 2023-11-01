@@ -14,3 +14,7 @@ Hi there! My name is Christine and I'm a PhD student at the Columbia University 
 
 Learn more [about me](about.html).
 
+See my [CV](cv.html).
+
+Check out my [LinkedIn](https://www.linkedin.com/in/clkuryla/).
+
