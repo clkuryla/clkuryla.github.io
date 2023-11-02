@@ -21,3 +21,4 @@ Check out my [LinkedIn](https://www.linkedin.com/in/clkuryla/)!
 # Assignment
 
 Here is the [plotly](plotly_instacart.html).
+Here is the [flexdashboard](flexdashboard.html).

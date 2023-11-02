@@ -1,19 +1,13 @@
 ---
-title: "Plotly Instacart"
+title: "Instacart Flexdashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-# Plotly Instacart
-
-This document will explore a dataset containing data from Instacart such as orders and items.
-
-# Set up
-
-```{r setup}
-
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
@@ -34,53 +28,11 @@ instacart <- instacart %>%
 
 ``` 
 
-```{r plot}
 
-# most popular aisles
-instacart %>% 
-  count(aisle) %>% 
-  arrange(desc(n)) %>% 
-  print(n=20)
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-instacart %>% 
-  filter(aisle == "ice cream ice") %>% 
-  count(product_name) %>% 
-  mutate(product_name = fct_reorder(product_name, n)) %>% 
-  filter(n < 10) %>% 
-  plot_ly(x = ~product_name, y = ~n)
-
-```
-
-
-```{r}
-
-# Here are the most popular fresh vegetables.
-
-instacart %>% 
-  filter(aisle == "fresh vegetables") %>% 
-  count(product_name) %>% 
-  filter(n > 100) %>% 
-  mutate(product_name = as.factor(product_name)) %>% 
-  mutate(product_name = fct_reorder(product_name, -n)) %>% 
-  plot_ly(x = ~product_name, y = ~n) %>% 
-  layout(title = 'Count of Fresh Vegetables Products',
-         xaxis = list(title = 'Type of Vegetable', type = 'category'),
-         yaxis = list(title = 'Count'))
-
-```
-
-```{r}
-
-# Here are which departments are ordered when.
-
-instacart %>% 
-plot_ly(y = ~order_hour_of_day, x = ~factor(department), type = 'box') %>%
-  layout(title = 'Order Hour Distribution by Department',
-         xaxis = list(title = 'Department'),
-         yaxis = list(title = 'Order Hour of Day'))
-```
-
-
+### Snacks and produce per day of week
 
 ```{r}
 
@@ -113,5 +65,39 @@ plot_ly(data = sales_data_normalized,
 
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
 
+### Most Popular Fresh Vegetables
+
+```{r}
+
+# Here are the most popular fresh vegetables.
+
+instacart %>% 
+  filter(aisle == "fresh vegetables") %>% 
+  count(product_name) %>% 
+  filter(n > 100) %>% 
+  mutate(product_name = as.factor(product_name)) %>% 
+  mutate(product_name = fct_reorder(product_name, -n)) %>% 
+  plot_ly(x = ~product_name, y = ~n) %>% 
+  layout(title = 'Count of Fresh Vegetables Products',
+         xaxis = list(title = 'Type of Vegetable', type = 'category'),
+         yaxis = list(title = 'Count'))
+
+```
+
+### Timing of orders per department
+
+```{r}
+
+# Here are which departments are ordered when.
+
+instacart %>% 
+plot_ly(y = ~order_hour_of_day, x = ~factor(department), type = 'box') %>%
+  layout(title = 'Order Hour Distribution by Department',
+         xaxis = list(title = 'Department'),
+         yaxis = list(title = 'Order Hour of Day'))
+
+```
 
