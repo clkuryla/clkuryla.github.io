@@ -1,0 +1,117 @@
+---
+title: "Plotly Instacart"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Plotly Instacart
+
+This document will explore a dataset containing data from Instacart such as orders and items.
+
+# Set up
+
+```{r setup}
+
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+```
+
+# Load data
+
+```{r load_data}
+
+# Load data
+data("instacart")
+
+# Subset data
+instacart <- instacart %>% 
+  select(-eval_set, -aisle_id, -department_id, -product_id) %>%
+  filter(user_id < 10000)
+
+``` 
+
+```{r plot}
+
+# most popular aisles
+instacart %>% 
+  count(aisle) %>% 
+  arrange(desc(n)) %>% 
+  print(n=20)
+
+instacart %>% 
+  filter(aisle == "ice cream ice") %>% 
+  count(product_name) %>% 
+  mutate(product_name = fct_reorder(product_name, n)) %>% 
+  filter(n < 10) %>% 
+  plot_ly(x = ~product_name, y = ~n)
+
+```
+
+
+```{r}
+
+# Here are the most popular fresh vegetables.
+
+instacart %>% 
+  filter(aisle == "fresh vegetables") %>% 
+  count(product_name) %>% 
+  filter(n > 100) %>% 
+  mutate(product_name = as.factor(product_name)) %>% 
+  mutate(product_name = fct_reorder(product_name, -n)) %>% 
+  plot_ly(x = ~product_name, y = ~n) %>% 
+  layout(title = 'Count of Fresh Vegetables Products',
+         xaxis = list(title = 'Type of Vegetable', type = 'category'),
+         yaxis = list(title = 'Count'))
+
+```
+
+```{r}
+
+# Here are which departments are ordered when.
+
+instacart %>% 
+plot_ly(y = ~order_hour_of_day, x = ~factor(department), type = 'violin') %>%
+  layout(title = 'Order Hour Distribution by Department',
+         xaxis = list(title = 'Department'),
+         yaxis = list(title = 'Order Hour of Day'))
+```
+
+
+
+```{r}
+
+# Here is the distribtion of orders for a few aisles per day of the week. 
+
+aisles_of_interest <- c("chips pretzels", "ice cream ice", "fresh fruits", "fresh vegetables")
+
+sales_data_normalized <- instacart %>%
+  filter(aisle %in% aisles_of_interest) %>%
+  group_by(order_dow, aisle) %>%
+  summarize(count = n()) %>%
+  mutate(day = factor(order_dow, 
+                      levels = 0:6, 
+                      labels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))) %>%
+  group_by(aisle) %>%
+  mutate(fraction = count / sum(count)) %>%
+  ungroup()
+
+# Plot the data with fractions
+plot_ly(data = sales_data_normalized, 
+             x = ~day, 
+             y = ~fraction, 
+             type = 'bar', 
+             color = ~aisle,
+             text = ~paste0(round(fraction*100, 2), '%'), 
+             name = ~aisle) %>%
+  layout(title = "Normalized Sales by Aisle Across Days of the Week",
+         xaxis = list(title = "Day of the Week"),
+         yaxis = list(title = "Fraction of Total Sales"))
+
+```
+
+
+
