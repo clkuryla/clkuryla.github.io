@@ -3,10 +3,10 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Plotly"
-      href: plotly_instacart.html
-    - text: "Flexdashboard"
-      href: flexdashboard.html
+    # - text: "Plotly"
+    #   href: plotly_instacart.html
+    # - text: "Flexdashboard"
+    #   href: flexdashboard.html
     - text: "About"
       href: about.html
     - text: "CV"

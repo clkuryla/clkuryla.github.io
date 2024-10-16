@@ -6,14 +6,17 @@ output:
     toc_float: true
 ---
 
+<img src = "images/clk_green_bkrnd.jpeg" style="width:50%">
+
 # About me
 
 I'm a PhD student at the Columbia University Mailman School of Public Health. 
 
-I like yoga, parties, and puppies. That is my entire personality.
+My advisers are Alan Cohen and Sen Pei. 
 
-# Christine's Face!
+Relevant lab websites:
 
-This is me!
+* [Cohen Lab on Aging, Systems and Statistics](https://www.publichealth.columbia.edu/research-labs/cohen-lab-aging-systems-statistics)
+* [Pei Group](https://senpei-cu.github.io)
+* [Science of Health](https://www.publichealth.columbia.edu/research/centers/robert-n-butler-columbia-aging-center/research/science-health)
 
-<img src = "images/clk_green_bkrnd.jpeg" style="width:50%">
