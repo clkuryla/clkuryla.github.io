@@ -11,6 +11,10 @@ navbar:
       href: about.html
     - text: "CV"
       href: cv.html
+    - text: "Research Interests"
+      href: researchinterests.html
+    - text: "Current Projects"
+      href: currentprojects.html
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/clkuryla/
     - icon: fa-envelope fa-lg

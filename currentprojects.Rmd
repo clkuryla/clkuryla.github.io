@@ -1,0 +1,50 @@
+---
+title: "Current Projects"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. **Multiscale Health Dynamics Index (MHDI)**
+
+I’m developing the Multiscale Health Dynamics Index, a composite metric designed to quantify health using various data sources, expanding on clinical, lab-based, and omics, by including dynamic data such as HRV and heart rate time series data from Holter monitors and wearable devices. The MHDI integrates complexity metrics (e.g., entropy, fractality, transfer entropy) across multiple time scales to assess health as an emergent systems property.
+
+Data: Holter ECG (via THEW), Oura Ring, and the All of Us Research Program
+
+Goal: Validate complexity-based health measures and assess their sensitivity to stressors like physical activity, sleep disruption, and extreme heat events.
+
+2. **Self-Rated Health (SRH)**
+
+As part of a side project, I’m examining self-rated health and its relationship to mortality, comorbidities, and behavioral factors.
+
+Data: NHIS, BRFSS, GSS, NHANES, IVS, CPS
+
+Goal: Explore different aspects of age, period, and cohort trends in self-rated health.
+
+3. **Transfer Entropy & Network Physiology**
+
+I'm exploring how transfer entropy and other information-theoretic tools can capture directional interactions between physiological systems—such as heart rate, respiration, and blood pressure—during stress and recovery.
+
+Goal: Investigate task-specific and recovery-related changes in network dynamics to identify candidate metrics for physiological resilience.
+
+4. **Methodological Development for Complexity Analysis**
+
+I’m working on adapting and optimizing methods for quantifying physiological complexity from noisy, irregularly sampled time series data—such as wearable device output. This includes:
+
+Developing workflows for robust entropy estimation across time scales
+
+Assessing how sampling resolution and interpolation choices affect metric stability
+
+Comparing standard and multiscale implementations of complexity measures across datasets
+
+Integrating methodological insights into applied analyses of health and resilience
+
+5. **Science of Health Working Group**
+
+I’m an active member of the Science of Health working group at Columbia, a transdisciplinary team of researchers focused on redefining and operationalizing health as a complex systems property.
+
+Goal: Help develop theoretical and empirical frameworks for concepts like intrinsic health, realized health, and physiological adaptability, contributing to publications and conceptual models.
+

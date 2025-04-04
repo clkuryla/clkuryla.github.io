@@ -1,5 +1,5 @@
 ---
-title: "Christine Lucille Kuryla"
+title: "About Me"
 output: 
   html_document:
     toc: true
@@ -8,19 +8,12 @@ output:
 
 <img src = "images/clk_green_bkrnd.jpeg" style="width:50%">
 
-# About me
+I come to complexity science and environmental health from a winding, interdisciplinary path through biology, neuroscience, and clinical innovation. Before starting my PhD at Columbia, I worked in bioinformatics and systems biology, developing pipelines for transcriptomic and epigenetic analysis. I’ve also worked at the intersection of telemedicine and AI, using digital stethoscope data to classify benign vs. non-benign heart murmurs in clinical screening applications. Earlier in my career, I studied neurosciene in pediatric populations, analyzing DTI and EEG data to better understand neurodiversity.
 
-Hi, I’m Christine Lucille Kuryla. I’m working on a PhD at Columbia University, where I study how health can be understood not just as the absence of disease, but as a dynamic systems property - emerging from the body’s capacity to adapt across time, stressors, and environments.
+Across all of these domains, one theme has persisted: I’m drawn to the challenge of understanding health as something more than a single point on a lab test. I now study physiological time series to explore how health unfolds dynamically over time and in response to real-world stressors like heatwaves.
 
-My work brings together complexity science, time series analysis, and environmental epidemiology to explore intrinsic health and physiological resilience. I’m currently developing the Multiscale Health Dynamics Index (MHDI) - a composite metric that quantifies health using physiological time series data from wearables (such as Fitbit and Oura rings) and Holter monitors.
+My current research blends complexity science, systems epidemiology, and environmental exposures to develop new ways of measuring intrinsic health and resilience using wearable and Holter monitor data. I’m especially interested in how we can operationalize dynamic systems thinking in public health research and practice.
 
-I am advised by Dr. Alan Cohen, whose lab investigates aging and complexity in biological systems, and Dr. Sen Pei, who studies complex systems in public health.
+Outside of research, I love dancing, hosting themed parties (that occasionally include an ML component -- [iykyk](https://lovescience.club/about)), and designing sparkly, low-MOOP outfits. 
 
-Outside of research, I love dancing, hosting themed parties (that occasionally include an ML component -- [IYKYK](https://lovescience.club/about)), and designing sparkly, low-MOOP outfits.
-
-Relevant lab websites:
-
-* [Cohen Lab on Aging, Systems and Statistics](https://www.publichealth.columbia.edu/research-labs/cohen-lab-aging-systems-statistics)
-* [Pei Group](https://senpei-cu.github.io)
-* [Science of Health](https://www.publichealth.columbia.edu/research/centers/robert-n-butler-columbia-aging-center/research/science-health)
-
+I believe science should be rigorous and joyful, creative and grounded - and always in conversation with the systems we live in.

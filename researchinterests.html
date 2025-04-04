@@ -11,7 +11,7 @@
 
 
 
-<title>Christine Lucille Kuryla</title>
+<title>Research Interests</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,69 +221,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -294,16 +228,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -362,49 +286,34 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Christine Lucille Kuryla</h1>
+<h1 class="title toc-ignore">Research Interests</h1>
 
 </div>
 
 
-<p>Hi, I’m Christine! I study how health can be understood not just as
-the absence of disease, but as a dynamic systems property - emerging
-from the body’s capacity to adapt across time, stressors, and
-environments.</p>
-<p>My work brings together complexity science, time series analysis, and
-environmental epidemiology to explore intrinsic health and physiological
-resilience. I’m currently developing the Multiscale Health Dynamics
-Index (MHDI) - a composite metric that quantifies health using
-physiological time series data from wearables (such as Fitbit and Oura
-rings) and Holter monitors.</p>
-<p>I’m working on my PhD at Columbia University, where I’m advised by
-Dr. Alan Cohen, whose lab investigates aging and complexity in
-biological systems, and Dr. Sen Pei, who studies complex systems in
-public health.</p>
-<ul>
-<li><p>Learn more <a href="about.html">about me</a>.</p></li>
-<li><p>See more about my latest <a
-href="researchinterests.html">research interests</a> and <a
-href="currentprojects.html">current projects</a>.</p></li>
-<li><p>Check out my <a
-href="https://www.linkedin.com/in/clkuryla/">LinkedIn</a>!</p></li>
-</ul>
-<p>Relevant Lab Websites:</p>
-<ul>
-<li><a
-href="https://www.publichealth.columbia.edu/research-labs/cohen-lab-aging-systems-statistics">Cohen
-Lab on Aging, Systems and Statistics</a></li>
-<li><a href="https://senpei-cu.github.io">Pei Group</a></li>
-<li><a
-href="https://www.publichealth.columbia.edu/research/centers/robert-n-butler-columbia-aging-center/research/science-health">Science
-of Health</a></li>
-</ul>
-<p><img src = "images/clk_green_bkrnd.jpeg" style="width:50%"></p>
+<p>My research centers on understanding health and resilience as
+emergent properties of complex physiological systems. I’m especially
+interested in:</p>
+<p><strong>Physiological Complexity</strong>: How patterns in time
+series data (e.g., heart rate, respiration, blood pressure, temperature,
+galvanic skin response, activity, sleep) reflect the adaptability and
+stability of the human body.</p>
+<p><strong>Intrinsic Health</strong>: Investigating health as a
+systems-level state, incorporating the capacity to recover from stress,
+rather than as the absence of specific diseases.</p>
+<p><strong>Environmental Stressors</strong>: Examining how exposures
+like heat waves and humidity influence physiological resilience and
+population health.</p>
+<p><strong>Multiscale Integration</strong>: Bridging wearable sensor
+data, clinical Holter monitors, and population health surveys to compare
+health signals across time scales.</p>
+<p><strong>Quantitative Methods</strong>: Applying tools from complexity
+science (e.g., entropy, fractality, transfer entropy), statistical
+modeling, and functional data analysis to characterize health
+dynamics.</p>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -437,35 +346,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

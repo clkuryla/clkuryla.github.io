@@ -6,14 +6,23 @@ output:
     toc_float: true
 ---
 
-# Hello!
+Hi, I’m Christine! I study how health can be understood not just as the absence of disease, but as a dynamic systems property - emerging from the body’s capacity to adapt across time, stressors, and environments.
 
-Hi there! My name is Christine and I'm a PhD student at the Columbia University Mailman School of Public Health. 
+My work brings together complexity science, time series analysis, and environmental epidemiology to explore intrinsic health and physiological resilience. I’m currently developing the Multiscale Health Dynamics Index (MHDI) - a composite metric that quantifies health using physiological time series data from wearables (such as Fitbit and Oura rings) and Holter monitors.
 
-# About me
+I'm working on my PhD at Columbia University, where I'm advised by Dr. Alan Cohen, whose lab investigates aging and complexity in biological systems, and Dr. Sen Pei, who studies complex systems in public health.
 
-Learn more [about me](about.html).
+* Learn more [about me](about.html).
 
-See my [CV](cv.html).
+* See more about my latest [research interests](researchinterests.html) and [current projects](currentprojects.html). 
 
-Check out my [LinkedIn](https://www.linkedin.com/in/clkuryla/)!
+* Check out my [LinkedIn](https://www.linkedin.com/in/clkuryla/)!
+
+Relevant Lab Websites:
+
+* [Cohen Lab on Aging, Systems and Statistics](https://www.publichealth.columbia.edu/research-labs/cohen-lab-aging-systems-statistics)
+* [Pei Group](https://senpei-cu.github.io)
+* [Science of Health](https://www.publichealth.columbia.edu/research/centers/robert-n-butler-columbia-aging-center/research/science-health)
+
+
+<img src = "images/clk_green_bkrnd.jpeg" style="width:50%">
