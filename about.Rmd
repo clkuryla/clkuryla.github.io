@@ -8,7 +8,7 @@ output:
 
 <img src = "images/clk_green_bkrnd.jpeg" style="width:50%">
 
-I come to complexity science and environmental health from a winding, interdisciplinary path through biology, neuroscience, and clinical innovation. Before starting my PhD at Columbia, I worked in bioinformatics and systems biology, developing pipelines for transcriptomic and epigenetic analysis. I’ve also worked at the intersection of telemedicine and AI, using digital stethoscope data to classify benign vs. non-benign heart murmurs in clinical screening applications. Earlier in my career, I studied neurosciene in pediatric populations, analyzing DTI and EEG data to better understand neurodiversity.
+I come to complexity science and environmental health from a winding, interdisciplinary path through physics, mathematics, biology, and clinical innovation. Before starting my PhD at Columbia, I worked in bioinformatics and systems biology, developing pipelines for transcriptomic and epigenetic analysis. I’ve also worked at the intersection of telemedicine and AI, using digital stethoscope data to classify benign vs. non-benign heart murmurs in clinical screening applications. Earlier in my career, I studied neurosciene in pediatric populations, analyzing DTI and EEG data to better understand neurodiversity.
 
 Across all of these domains, one theme has persisted: I’m drawn to the challenge of understanding health as something more than a single point on a lab test. I now study physiological time series to explore how health unfolds dynamically over time and in response to real-world stressors like heatwaves.
 
