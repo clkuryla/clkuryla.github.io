@@ -9,8 +9,8 @@ navbar:
     #   href: flexdashboard.html
     - text: "About"
       href: about.html
-    - text: "CV"
-      href: cv.html
+#    - text: "CV"
+#      href: cv.html
     - text: "Research Interests"
       href: researchinterests.html
     - text: "Current Projects"
