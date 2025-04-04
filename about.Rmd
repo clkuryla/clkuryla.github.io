@@ -10,9 +10,13 @@ output:
 
 # About me
 
-I'm a PhD student at the Columbia University Mailman School of Public Health. 
+Hi, I’m Christine Lucille Kuryla. I’m working on a PhD at Columbia University, where I study how health can be understood not just as the absence of disease, but as a dynamic systems property - emerging from the body’s capacity to adapt across time, stressors, and environments.
 
-My advisers are Alan Cohen and Sen Pei. 
+My work brings together complexity science, time series analysis, and environmental epidemiology to explore intrinsic health and physiological resilience. I’m currently developing the Multiscale Health Dynamics Index (MHDI) - a composite metric that quantifies health using physiological time series data from wearables (such as Fitbit and Oura rings) and Holter monitors.
+
+I am advised by Dr. Alan Cohen, whose lab investigates aging and complexity in biological systems, and Dr. Sen Pei, who studies complex systems in public health.
+
+Outside of research, I love dancing, hosting themed parties (that occasionally include an ML component -- [IYKYK](https://lovescience.club/about)), and designing sparkly, low-MOOP outfits.
 
 Relevant lab websites:
 
