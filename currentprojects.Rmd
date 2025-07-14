@@ -8,17 +8,19 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-1. **Multiscale Health Dynamics Index (MHDI)**
+1. **Dynamic Health Index (DHI)**
 
-I’m developing the Multiscale Health Dynamics Index, a composite metric designed to quantify health using various data sources, expanding on clinical, lab-based, and omics, by including dynamic data such as HRV and heart rate time series data from Holter monitors and wearable devices. The MHDI integrates complexity metrics (e.g., entropy, fractality, transfer entropy) across multiple time scales to assess health as an emergent systems property.
+I’m developing the Dynamic Health Index, a composite metric designed to quantify health using various data sources, expanding on clinical, lab-based, and omics, by including dynamic data such as heart rate time series and activity data from Holter monitors and wearable devices. 
+
+The DHI integrates complexity metrics (e.g., entropy, fractality, variability) across multiple time scales to assess health as an emergent systems property. I plan to incorporate time series representation learning and other deep learning methods alongside and in combination with the well-defined time series and complexity metrics. 
 
 Data: Holter ECG (via THEW), Oura Ring, and the All of Us Research Program
 
-Goal: Validate complexity-based health measures and assess their sensitivity to stressors like physical activity, sleep disruption, and extreme heat events.
+Goal: Validate time series and complexity-based health measures and assess their sensitivity to stressors like physical activity, sleep disruption, and extreme heat events.
 
 2. **Self-Rated Health (SRH)**
 
-As part of a side project, I’m examining self-rated health and its relationship to mortality, comorbidities, and behavioral factors.
+As part of a side project, I’m examining self-rated health and its relationship to age, mortality, comorbidities, and behavioral factors.
 
 Data: NHIS, BRFSS, GSS, NHANES, IVS, CPS
 
@@ -27,6 +29,8 @@ Goal: Explore different aspects of age, period, and cohort trends in self-rated 
 3. **Transfer Entropy & Network Physiology**
 
 I'm exploring how transfer entropy and other information-theoretic tools can capture directional interactions between physiological systems—such as heart rate, respiration, and blood pressure—during stress and recovery.
+
+Data: [MiSBIE](https://www.picardlab.org/misbie.html)
 
 Goal: Investigate task-specific and recovery-related changes in network dynamics to identify candidate metrics for physiological resilience.
 
@@ -47,4 +51,7 @@ Integrating methodological insights into applied analyses of health and resilien
 I’m an active member of the Science of Health working group at Columbia, a transdisciplinary team of researchers focused on redefining and operationalizing health as a complex systems property.
 
 Goal: Help develop theoretical and empirical frameworks for concepts like intrinsic health, realized health, and physiological adaptability, contributing to publications and conceptual models.
+
+Our foundational paper: [Intrinsic health as a foundation for a science of health](https://www.science.org/doi/10.1126/sciadv.adu8437)
+Website: [Science of Health Group](https://www.publichealth.columbia.edu/research/centers/robert-n-butler-columbia-aging-center/research/science-health)
 
