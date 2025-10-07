@@ -22,7 +22,7 @@ I'm working on my PhD at Columbia University, where I'm advised by Dr. Alan Cohe
 
 Relevant Lab Websites:
 
-* [Cohen Lab on Aging, Systems and Statistics](https://www.publichealth.columbia.edu/research-labs/cohen-lab-aging-systems-statistics)
+* [Cohen Lab on Aging, Systems, and Statistics](https://www.publichealth.columbia.edu/research-labs/cohen-lab-aging-systems-statistics)
 * [Pei Group](https://senpei-cu.github.io)
 * [Science of Health](https://www.publichealth.columbia.edu/research/centers/robert-n-butler-columbia-aging-center/research/science-health)
 

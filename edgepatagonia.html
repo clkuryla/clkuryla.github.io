@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Health Project @ Edge Patagonia</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        h2 {
+            color: #5a67d8;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            border-left: 5px solid #667eea;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-top: 25px;
+            font-weight: 600;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .hero h2 {
+            color: #2c3e50;
+            border: none;
+            padding: 0;
+            margin-top: 0;
+        }
+        
+        .hero p {
+            font-size: 1.1em;
+            color: #34495e;
+            margin-top: 10px;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);
+        }
+        
+        .highlight-box strong {
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .info-box {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #667eea;
+        }
+        
+        .warning-box {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #f5576c;
+        }
+        
+        .success-box {
+            background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #4ecdc4;
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        ul li {
+            padding: 10px 0 10px 30px;
+            position: relative;
+        }
+        
+        ul li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s;
+        }
+        
+        a:hover {
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 20px rgba(102, 126, 234, 0.6);
+            border-bottom: none;
+        }
+        
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .metric-card h4 {
+            margin-top: 0;
+            font-size: 1.1em;
+        }
+        
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #667eea, transparent);
+            margin: 40px 0;
+        }
+        
+        strong {
+            color: #764ba2;
+        }
+        
+        .consciousness-athletes {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(250, 112, 154, 0.4);
+        }
+        
+        .consciousness-athletes h2 {
+            color: #2c3e50;
+            border: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Health Project @ Edge Patagonia</h1>
+        <h3>Christine L. Kuryla</h3>
+        <div class="hero">
+            <h2>Join Us in Pioneering a New Science of Health</h2>
+            <p>We're conducting a month-long research study at Edge City Patagonia to explore <strong>intrinsic health</strong>—a paradigm shift from measuring what's wrong (disease) to measuring what's right (biological capacity for self-maintenance and resilience).</p>
+            <p>If you're curious about what your physiology reveals about your inner state, this project is for you. </p>
+        </div>
+
+        <h2>The Theory: Beyond the Absence of Disease</h2>
+        <p>Traditional medicine focuses on disease—what's broken. But health isn't just the absence of illness. <strong>Intrinsic health</strong> represents your body's fundamental capacity to maintain itself, adapt to challenges, and return to balance.</p>
+        
+        <p>I co-authored a recent <a href="https://www.science.org/doi/10.1126/sciadv.adu8437" target="_blank">Science Advances paper</a> (Cohen et al., 2025) that makes the case: intrinsic health is objective, measurable, and distinct from disease diagnosis. We can quantify it through:</p>
+        
+        <div class="metric-grid">
+            <div class="metric-card">
+                <h4>🎆 Complexity</h4>
+                <p>The rich variability in your physiological signals (heart rate, movement, respiration rate, skin conductance) that reflects adaptive capacity</p>
+            </div>
+            <div class="metric-card">
+                <h4>💪 Resilience</h4>
+                <p>How well your system responds to and recovers from stressors</p>
+            </div>
+            <div class="metric-card">
+                <h4>📈 Integrated Dynamics</h4>
+                <p>The coordinated dance between your nervous, cardiovascular, respiratory, metabolic, and other systems</p>
+            </div>
+        </div>
+        
+        <p>Read our foundational paper: 
+        <a href="https://www.science.org/doi/10.1126/sciadv.adu8437" target="_blank">Intrinsic health as a foundation for the science of health</a></p>
+        <p>My personal website: <a href="https://clkuryla.github.io" target="_blank">clkuryla.github.io</a> </p>
+
+        <hr>
+
+        <h2>Why This Matters</h2>
+        
+        <div class="highlight-box">
+            <strong>Measuring health as a positive state—not just screening for disease—could transform how we understand wellness, track interventions, and predict future health trajectories.</strong>
+        </div>
+        
+        <ul>
+            <li>Current health metrics are reductionist—they look at isolated biomarkers or binary disease states</li>
+            <li>Our approach combines <strong>complexity science, biological theory, and AI/machine learning</strong> to create novel metrics that capture your whole-system health</li>
+            <li>These measurements will inform each other and evolve our understanding of what intrinsic health actually is</li>
+            <li>This could enable: personalized health quantification, real-time monitoring, predictive modeling, and serve as endpoints for future intervention studies</li>
+        </ul>
+        
+        <p>Most importantly: <strong>your data will help us discover both expected and unexpected patterns.</strong> The experiments many of you are already doing (ice baths, breathwork, meditation protocols, sound healing) might reveal signatures in your physiology we've never seen before.</p>
+
+        <hr>
+
+
+        <h2>What You'll Do</h2>
+
+
+        <ul>
+            <li>Wear a <strong>Fitbit Inspire 3</strong> continuously for one month (remove only for charging)</li>
+            <li>Wear a <strong>Polar H10 chest strap</strong> for at least three 18-24 hour periods (bonus points for more!)</li>
+            <li>Complete <strong>1-3 in-person protocol sessions</strong> (~45-60 minutes each)</li>
+            <li>Complete several questionnaires (linked via Qualtrics)</li>
+            <li>Export and share your data with us</li>
+        </ul>
+<hr>
+
+
+        <h2>What You'll Get</h2>
+        
+        <div class="success-box">
+            <strong>Personalized health insights you can't get anywhere else:</strong>
+        </div>
+        
+        <ul>
+            <li><strong>Your Metrics Report</strong>: Standard accepted metrics PLUS our novel complexity and resilience scores</li>
+            <li><strong>Comparative Context</strong>: See how your metrics compare to others in the study</li>
+            <li><strong>Longitudinal Visualizations</strong>: Charts showing how your metrics evolve over the month</li>
+            <li><strong>Personalized Experiments</strong> (if you provide timestamps): Insights into how your physiology responds to your specific practices and activities (for example, how your body responds to meditating vs before/after)</li>
+            <li><strong>Research Updates</strong>: Periodic updates on findings, patterns we're discovering, and eventual publications</li>
+            <li><strong>Contributing to Science</strong>: You're not just a data point—you're a collaborator in developing fundamentally new ways to measure human health and consciousness</li>
+        </ul>
+ 
+ <hr>
+ 
+ 
+       
+        <h2>Get Involved</h2>
+
+        <div class="info-box">
+            <p><strong>Contact</strong>: Christine Kuryla<br>
+            <strong>Sign Up</strong>: <a href="#">[Google Form Link]</a></p>
+            </ul>
+        </div>
+
+<div class="warning-box">
+            <h3>Option to Use Your Own Wearables</h3>
+            <p>The response has been overwhelming! We've exceeded our equipment budget. <strong>Would you be willing to purchase your own Fitbit Inspire 3 (~$100 USD) and Polar H10 (~$105 USD)?</strong> You keep both devices forever, we'll provide all other equipment, and you'll automatically be part of the project.</p>
+            <p><strong>IMPORTANT</strong>: Both devices are currently ~$20 off each for Amazon Prime Day (ends Wednesday, October 8th). If you're interested, grab them now—we promise you'll be part of the project!</p>
+        </div>
+ 
+ <hr>
+
+        <h2>What We're Going To Do</h2>
+        <p>We're using a multi-layered approach:</p>
+
+        <h3>Scalable Continuous Monitoring</h3>
+        <ul>
+            <li><strong>Fitbit Inspire 3</strong>: Wear continuously for one month to capture your daily patterns, sleep, activity, and heart rate</li>
+        </ul>
+
+        <h3>Gold-Standard Physiological Data</h3>
+        <ul>
+            <li><strong>Polar H10 chest strap</strong>: Wear for at least three 18-24 hour periods to get research-grade HR and HRV data</li>
+        </ul>
+
+        <h3>Stressor Protocols (In-Person, 1-3 sessions)</h3>
+        <p>We'll measure your baseline state, then observe how your system responds to challenges:</p>
+        <ul>
+            <li><strong>Cold pressor test</strong>: Hand in ice water for up to 1 minute (you control when to stop)</li>
+            <li>Potential additional protocols: cognitive tasks (Stroop test), orthostatic challenge (sit-stand-sit), breathing exercises, breath holds</li>
+            <li>Continuous monitoring during protocols: ECG, galvanic skin response (stress/arousal), respiration rate, EEG (brain activity)</li>
+        </ul>
+
+        <h3>Context & Meaning</h3>
+        <ul>
+            <li><strong>Questionnaires</strong>: Help us understand what these numbers mean in the context of your life, practices, and subjective experience</li>
+        </ul>
+
+        <h3>Your Experiments (Optional but encouraged!)</h3>
+        <ul>
+            <li>Give me timestamps of your practices, experiences, or experiments (meditation sessions, sound baths, intense workouts, etc.)</li>
+            <li>I'll analyze your physiological data around those times and share insights</li>
+        </ul>
+
+      
+
+
+<hr>
+
+            <h2>Special Track: Consciousness Athletes</h2>
+            
+            <p>Within this study, we're forming a select cohort called the <strong>Consciousness Athletes</strong>—participants from or adjacent to the Consciousness residency who are willing to go deeper.</p>
+            
+            <p>Consciousness Athletes will complete the core study PLUS participate in additional experimental protocols, which may include:</p>
+            <ul>
+                <li><strong>Sound healing</strong> sessions with physiological monitoring</li>
+                <li>Other consciousness-related interventions (TBD based on interest and feasibility)</li>
+                <li>More intensive data collection and possibly longer protocol sessions</li>
+            </ul>
+            
+            <p>If you're interested in the Consciousness Athletes track, indicate this in your signup form. We'll follow up with more details.</p>
+
+
+        <hr>
+
+        <h2>Questions?</h2>
+        <p>Reach out to Christine Kuryla via the contact information in the signup form or catch me around Edge Patagonia!</p>
+        
+        <div class="highlight-box">
+            This is a rare opportunity to contribute to frontier science while learning about your own biology in ways most people never will. Let's discover what intrinsic health looks like—together.
+        </div>
+    </div>
+</body>
+</html>
