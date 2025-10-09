@@ -22,9 +22,3 @@ My research centers on understanding health and resilience as emergent propertie
 **Multiscale Integration**: Bridging wearable sensor data, clinical Holter monitors, and population health surveys to compare health signals across  scales.
 
 
-
-
-
-
-
-[.](https://docs.google.com/presentation/d/1aVn9p4m8hOSTo88XoyupjzMOdtgCQPAlmr_LmpRvZng/edit?usp=sharing) [.](https://docs.google.com/presentation/d/1bm7gZeY0GhB_ZhD-Ui5tCrzBcc92i2Tz52xHnlbfopI/edit?usp=sharing)
